@@ -1,0 +1,31 @@
+.wrapper {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.accordion {
+    width: 500px;
+}
+.item {
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+
+.content {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
