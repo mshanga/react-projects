@@ -78,6 +78,4 @@ This project was done by [Emmanuel Mshanga Makonde](https://makonde.tech). Feel 
 
 :globe_with_meridians: Website [makonde.tech](https://makonde.tech)
 
-:computer: Github [mshanga](https://github.com/mshanga)
-
-:computer: Twitter
+:computer: [Github](https://github.com/mshanga)
