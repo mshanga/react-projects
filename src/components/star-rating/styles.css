@@ -1,0 +1,40 @@
+/* FILEPATH: /Users/manu/Documents/GitHub/react-projects/src/components/star-rating/styles.css */
+
+.star-rating {
+  display: inline-block;
+  font-size: 0;
+  cursor: pointer;
+}
+
+.star-rating input {
+  display: none;
+}
+
+.star-rating label {
+  position: relative;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.star-rating label:before {
+  content: '\2605';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #ccc;
+}
+
+.star-rating input:checked ~ label:before {
+  color: #ffcc00;
+}
+
+.star-rating label:hover:before,
+.star-rating label:hover ~ label:before {
+  color: #ffcc00;
+}

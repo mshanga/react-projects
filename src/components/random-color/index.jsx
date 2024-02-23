@@ -28,20 +28,22 @@ export default function RandomColor() {
   }
 
   return (
-    <div style={{ width: "100vw", height: "100vh", backgroundColor: color }}>
-      <button onClick={() => setTypeOfColor("hex")}>Generate HEX Color</button>
-      <button onClick={() => setTypeOfColor("rgb")}>Generate RGB Color</button>
+    <div style={{ width: "100vw", height: "100vh", backgroundColor: color, }}>
+      <div style={{marginTop: "20px"}}>
+      <button onClick={() => setTypeOfColor("hexColor")}>Generate HEX Color</button>
+      <button onClick={() => setTypeOfColor("rgbColor")}>Generate RGB Color</button>
       <button
         onClick={
-          typeOfColor === "hex"
+          typeOfColor === "hexColor"
             ? handleCreateRandomHexColor
             : handleCreateRandomRgbColor
         }
       >
         Generate Random Color
       </button>
+      </div>
       <div style={{ display: "flex", justifyContent: "center", alignItems: "center", fontSize: "2rem", marginTop: "6rem", color: "white", flexDirection: "column" }}>
-        <h1>{typeOfColor === "hex" ? "HEX" : "RGB"}</h1>
+        <h1>{typeOfColor === "hexColor" ? "HEX" : "RGB"}</h1>
         <br />
         <h1 style={{ marginTop: "30px" }}>{color}</h1>
       </div>

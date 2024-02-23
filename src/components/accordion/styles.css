@@ -16,7 +16,8 @@
 }
 
 .wrapper button:hover {
-    background-color: #ccc;
+    color: #fff;
+    background-color: #3a6ce3;
 }
 
 .accordion {
@@ -37,7 +38,7 @@
 }
 
 
-.content {
+.acc-content {
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 20px;
